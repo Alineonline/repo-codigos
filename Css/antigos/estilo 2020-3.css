@@ -1,0 +1,331 @@
+﻿/* ==========================================================================
+   css 2020 - atualizada em 31/10/2020
+   Contem body p headers, blocos, parágrafos, imagem, lista e quebras
+   ========================================================================== */ 
+
+/* body, p e headers */
+
+body {text-align: justify;}
+
+
+h1 {
+	color: green;
+	text-align: center;
+	font-weight: bold; 
+	font-size: 1.8em; 
+	margin-bottom: 150px;
+}
+
+h2 {
+	font-weight: normal;
+	text-align: left;
+	margin: 3em 0em 0em 0em;
+	padding: 0em 0em 1em 0em;
+	border-width: 2px;	
+	border-bottom-style: dotted;
+}
+
+h3 {
+color: #CD5C5C;  
+font-weight: bold;
+font-style: italic;
+font-size: 1.5em;
+margin-top:50px;
+margin-bottom: 50px;
+}
+
+h3.a {
+page-break-before:always;
+}
+
+h4 {
+color: red;
+margin-top:30px;
+margin-bottom: 50px;
+}
+
+
+/* BLOCOS */ 
+
+blockquote {	
+margin: 2em 0em 2em; /* top, esq, baixo, direita */
+display: block;
+}
+
+.poema, .citacao {
+	border-width: 2px;
+	border-left-style: solid;
+	margin-left: 3em;
+	padding: 0em 1em 0em 2em; /* top, esq, baixo, direita */
+	color: #004d00;}
+
+.amplia {
+	background-color: #e8e6ca;
+	padding: 0.5em;
+}
+
+.glossario {	
+	margin: 0px 10px 10px 400px ; /* top, esq, baixo, direita */
+}
+
+
+
+/* parágrafos especiais dos blocos */ 
+.poema p {margin: 4px;}
+.amplia p  {margin: 15px}
+.amplia .citacao p {color: black}
+.amplia .poema p {color: black; margin: 4px;}
+.glossario p {font-size: 80%;}
+
+
+
+
+/* listas */ 
+
+.lista {
+	margin: 2em 0em 2em 3em; /* Lista Fake. top, esq, baixo, direita */
+}
+
+li {
+ margin-bottom: 1em;
+ }
+
+ul {margin: 2em 0em 2em 3em; /* Lista com marcador. top, esq, baixo, direita */}
+
+
+.epigrafe {
+	text-align: right;
+}
+
+.centro {
+	text-align: center;
+}
+
+.rodape {
+	font-size: 70%;
+	color: #231f20;
+	margin-left: 90px;
+	margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/* semântica para conteúdo destacado */
+cite {font-style: italic;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+dfn {font-style: normal;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+em {font-style: normal;
+	font-size: 130%;
+	font-weight: bold;}
+
+b.chama {font-size: 110%;
+font-weight: bold;}
+
+i {font-style: italic;
+font-size: 100%;
+font-weight: bold
+}
+
+mark {
+	display: block;
+	text-align: justify;
+	background-color: #d0cc95; 
+	margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.pag {	
+	display: block;
+	text-align: right;
+	color: black;
+	font-size: 120%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+
+}
+
+
+.referencia {
+	display: block;
+	text-align: justify;
+	background-color: #e8e6ca; 
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.capa {
+text-align: center;
+color: green; 
+font-weight: bold; 
+font-size: 5em; 
+margin-bottom: 150px;
+}
+
+.fundo {
+	display: block;
+	text-align: justify;
+	background-color: #d0cc95; 
+	margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.marcador {
+	background-color: #BDB76B;
+}
+.invisivel {
+color: white;
+}
+
+
+/* parágrafos */ 
+
+.autor { 
+color: #8b0000;
+font-style: italic; 
+text-align: right;
+}
+ 
+
+.intro p {
+margin-top: 9em;
+}
+
+
+p.bi {font-weight: bold;
+font-style: italic;}
+
+p.b{font-weight: bold;
+}
+
+
+
+a {font-size: 110%;
+letter-spacing:1px;}
+
+p.i{
+font-style: italic;
+font-size: 105%;
+}
+
+
+
+
+p.n1 {
+color: #CD5C5C;
+font-style: italic;
+font-weight: bold;
+font-size: 1.5em;
+    }
+
+p.n2 {
+color: red;  
+margin-top:20px;
+margin-bottom: 20px;
+}
+
+
+p.p400 {
+font-size: 400%;
+}
+
+p.p600 {
+font-size: 600%;
+}
+
+/* fontes reduzidas  */
+
+
+.pq70 {
+    font-size: 70%;
+    line-height: 1.2;
+}
+
+.pq55 {
+font-size: 55%;
+line-height: 1;
+color: #231f20;
+}
+
+.pq50 {
+font-size: 50%;
+line-height: 1;
+color: #231f20;
+}
+
+.pq45 {
+font-size: 45%;
+line-height: 1;
+color: #231f20;
+}
+
+.pq40 {
+font-size: 40%;
+line-height: 1.2;
+color: #231f20;
+}
+
+p.recuo { 
+text-indent:4em; 
+}
+
+
+p.dotted {
+border-style: dotted;
+padding: 25px;
+}
+
+
+
+
+
+
+/* quebras */
+
+p.a {
+page-break-before:always;
+}
+
+
+p.resposta {
+color: #CD5C5C;  
+font-weight: bold;
+font-style: italic;
+font-size: 1.5em;
+page-break-before:always;
+
+}
+
+
+p.resumos {
+font-size: 160%;
+color: #8b0000;
+}
+
+
+/* Imagens */ 
+
+.legenda {
+font-size: 60%;
+line-height: 1;
+}
+
+
+.imagem {    width: 100%;}
+.imagem80 {    width: 80%;}
+.imagem70 {    width: 70%;}
+.imagem60 {    width: 60%;}
+.imagem50 {    width: 50%;}
+.imagem40 {    width: 40%;}
+.imagem30 {    width: 40%;}
+
+

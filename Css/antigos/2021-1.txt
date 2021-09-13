@@ -1,0 +1,256 @@
+/* ==========================================================================
+   css 2021 - atualizada em 07/02/2021
+   Contem body p headers, blocos, parágrafos, imagem, lista e quebras
+   ========================================================================== */ 
+
+
+
+/* alinhamentos */ 
+
+body {text-align: justify;}
+h1, .centro, .capa {text-align: center;}
+h2, h3, .esq  {text-align: left;}
+.autor, .dir, .epigrafe, .pag {text-align: right;}
+
+
+
+
+/* fontes */ 
+
+.autor, cite, h3, p.n1, p.bi, p.i, p.resposta, i  {font-style: italic;}
+
+dfn, em {font-style: normal;}
+
+.autor, b.chama, cite, .capa, dfn, em, h1, h3, i, p.n1, p.b, p.bi, p.resposta   {font-weight: bold;}
+
+h2 {font-weight: normal;}
+
+h1 {
+	color: green;
+ 	font-size: 1.8em; 
+	margin-bottom: 150px;
+}
+
+h2 {
+ 	font-size: 1.8em;
+ 	margin: 3em 0em 0em 0em;
+	padding: 0em 0em 1em 0em;
+	border-width: 2px;	
+	border-bottom-style: dotted;
+}
+
+
+h3 {
+	color: #CD5C5C;  
+	margin-top:50px;
+ }
+
+
+
+h4 {
+color: red;
+margin-top:30px;
+ }
+
+h3, h4	{margin-bottom: 50px;}
+
+
+
+/* Page Break */ 
+
+h3.a, p.a, p.resposta  {page-break-before:always;}
+
+
+/* BLOCOS */ 
+
+blockquote {	
+margin: 2em 0em 2em; /* top, esq, baixo, direita */
+display: block;
+}
+
+
+.poema, .citacao {
+	border-width: 2px;
+	border-left-style: solid;
+	margin-left: 2em;
+	padding: 0em 1em 0em 1.5em; /* top, esq, baixo, direita */
+	color: #004d00;}
+
+.amplia {
+	background-color: #e8e6ca;
+	padding: 0.5em;
+}
+
+.glossario {	
+	margin: 10px 0px 10px 200px ; /* top, dir, baixo, esq */
+}
+
+.textorespostas {} /* serve para resetar o itálico do pdf original */
+
+/* parágrafos especiais dos blocos */ 
+.poema p, .amplia .poema p, .glossario p  {margin: 4px;}
+.amplia p  {margin: 15px}
+.amplia .citacao p, .amplia .poema p  {color: black}
+.glossario p {font-size: 80%;}
+.textorespostas i {font-style: normal; font-weight: normal;}
+  
+
+/* listas */ 
+
+.lista {
+	margin: 2em 0em 2em 3em; /* Lista Fake. top, esq, baixo, direita */
+}
+
+li {
+ margin-bottom: 1em;
+ }
+
+ul {margin: 2em 0em 2em 3em; /* Lista com marcador. top, esq, baixo, direita */}
+
+.rodape {
+	font-size: 70%;
+	color: #231f20;
+	margin-left: 90px;
+	margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/* semântica para conteúdo destacado */
+
+.autor, cite  {font-size: 110%; font-weight: bold; }
+
+dfn {font-size: 90%; }
+
+em {font-size: 120%;}
+ 
+
+mark {
+	display: block;
+	text-align: justify;
+	background-color: #d0cc95; 
+	margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.referencia {
+	display: block;
+	text-align: justify;
+	background-color: #e8e6ca; 
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.capa {
+ color: green; 
+ font-size: 5em; 
+margin-bottom: 150px;
+}
+
+.fundo {
+	display: block;
+	text-align: justify;
+	background-color: #d0cc95; 
+	margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.marcador {
+	background-color: #BDB76B;
+}
+.invisivel {
+color: white;
+}
+
+/* parágrafos */ 
+
+ 
+.pag {	
+ 	color: black;
+	margin-top: 2em;
+	margin-bottom: 2em;
+
+}
+
+
+p.n1, p.n2 , p.resposta, .autor {
+color: #CD5C5C;}
+
+ .autor {
+color: red;}
+
+p.n2 {
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+
+
+.intro p { margin-top: 9em;}
+
+/* Tamanhos de fontes */ 
+
+ .pag, p.n1, p.resposta, h3 {font-size: 150%;}
+
+
+ p.i{
+ font-size: 105%;
+}
+
+
+
+p.p400 {
+font-size: 400%;
+}
+
+p.p600 {
+font-size: 600%;
+}
+
+
+p.recuo { 
+text-indent:4em; 
+}
+
+
+p.dotted {
+border-style: dotted;
+padding: 25px;
+}
+
+
+
+/* quebras */
+
+
+
+
+
+p.resumos {
+font-size: 160%;
+color: #8b0000;
+}
+
+
+/* Imagens */ 
+
+.legenda {
+font-size: 60%;
+line-height: 1;
+}
+
+
+.imagem 		{ width: 100%;}
+.imagem80	{ width: 80%;}
+.imagem70	{ width: 70%;}
+.imagem60	{ width: 60%;}
+.imagem50	{ width: 50%;}
+.imagem40	{ width: 40%;}
+.imagem30	{ width: 40%;}
+.imagem30	{ width: 20%;}
+
+
+.lucida {    font-family: Segoe UI, Lucida Grande      }

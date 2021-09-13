@@ -1,0 +1,123 @@
+
+/* ==========================================================================
+   artigo 2021-2 - atualizada em 26/03/2021 
+
+   ========================================================================== */ 
+
+ 
+/* alinhamentos */ 
+
+body {adobe-hyphenate: auto; 	-epub-hyphens: auto; 	-webkit-hyphens: auto; 	-moz-hyphens: auto; 	hyphens: auto;}
+
+h1, .centro, .capa {text-align: center;}
+h2, h3, .esq  {text-align: left;}
+.autor, .dir, .epigrafe, .pag {text-align: right;}
+
+
+/* MARGENS */
+h1 { margin-bottom: 100px}
+h3 {margin-top:50px;}
+h4 {margin-top:30px;}
+h3, h4 {margin-bottom: 50px;}
+
+/* BLOCOS */ 
+
+blockquote {	
+	margin: 2em 0em 2em; /* top, esq, baixo, direita */
+	display: block;}
+
+.poema, .citacao {
+	border-width: 2px;
+ 	margin-left: 2em;
+	padding: 0em 1em 0em 1.5em; /* top, esq, baixo, direita */
+	}
+
+.amplia {
+	background-color: #e8e6ca;
+	padding: 0.5em;
+}
+
+.glossario {margin: 10px 10px 10px 200px; /* top, dir, baixo, esq */
+}
+
+ 
+.pag {margin-top: 15px 0px 15px 0px /* top, esq, baixo, direita */
+}
+
+.textorespostas, /* serve para resetar o itálico do pdf original */
+
+/* parágrafos especiais dos blocos */ 
+
+.poema p, .amplia .poema p, .glossario p  {margin: 4px;}
+.amplia p  {margin: 15px}
+.glossario p {font-size: 80%;}
+.intro p { margin-top: 9em;}
+  
+
+.rodape {
+	font-size: 90%;
+	margin: 50px 10px 20px 10px; /* top, esq, baixo, dir */
+ 	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 2px;
+	padding: 0em 0em 1em 0em;
+}
+
+
+/* Page Break */ 
+
+.a {page-break-before:always;}
+
+ 
+/* -----FONTES----- */ 
+
+/* estilo */
+
+
+dfn, em, textorespostas i, .citacao i
+{font-style: normal;}
+
+.autor, cite, h3, p.n1, p.bi, p.i, i, .citacao em  
+{font-style: italic;}
+
+  
+/* peso */
+
+h2, .textorespostas i, .citacao i  {font-weight: normal;}
+
+.autor, b.chama, cite, .capa, dfn, em, h1, h3, i, p.n1, p.b, p.bi, .citacao em  
+{font-weight: bold;}
+
+
+/* tamanho */
+
+figure {font-size: 60%;}
+dfn {font-size: 90%;}
+p.i, {font-size: 105%;}
+cite, b.chama, .autor {font-size: 110%;}
+h2, .pag {font-size: 120%;}
+h2, p.n1, h3 {font-size: 150%;}
+p.p400 {font-size: 400%;}
+p.p600 {font-size: 600%;}
+h1 {font-size: 180%;}
+ 
+
+ /* cor */ 
+
+ h4, .autor {color: red;} 
+.invisivel {color: white;}
+.poema, .citacao {color: #004d00;}
+.amplia .citacao p, .amplia .poema p, .pag {color: black;}
+
+
+/* Imagens */ 
+
+.imagem 	{ width: 100%;}
+.imagem80	{ width: 80%;}
+.imagem70	{ width: 70%;}
+.imagem60	{ width: 60%;}
+.imagem50	{ width: 50%;}
+.imagem40	{ width: 40%;}
+.imagem30	{ width: 40%;}
+.imagem30	{ width: 20%;}
+.legenda { line-height: 1;}

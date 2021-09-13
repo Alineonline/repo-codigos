@@ -1,0 +1,258 @@
+/* ==========================================================================
+   css 2020 - atualizada em 20/04/2020
+   Contem body p headers, blocos, parágrafos, imagem, lista e quebras
+   ========================================================================== */ 
+
+/* body, p e headers */
+
+body {
+text-align: justify;
+}
+
+p {display: block;
+  margin-bottom: 1em;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  line-height: 1.5;
+}
+
+
+/* BLOCOS */ 
+
+p.intro {
+	margin-top: 250px;
+}
+
+.poema {
+	display: block;
+	text-align: justify;
+	color: green;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 90px;
+}
+
+p.poem {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+p.verso {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.citacao {
+	display: block;
+	text-align: justify;
+	color: green;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 90px;
+}
+
+.ampliacao {
+	display: block;
+	font-size: 0.9em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background-color: #e8e6ca;
+	padding: 5px;
+}
+
+p.pampliacao {
+	text-align: justify;
+	font-size: 0.9em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;	
+	background-color: #e8e6ca;
+
+}
+.resumo {
+	display: block;
+	font-size: 0.9em;
+	margin-left: 10em;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 5px;
+}
+.glossario {
+	font-size: 70%;
+	color: #231f20;
+	margin-left: 90px;
+	margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.pag {	
+	display: block;
+	text-align: right;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+
+.referencia {
+	display: block;
+	text-align: justify;
+	background-color: #e8e6ca; 
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.capa {
+text-align: center;
+color: green; 
+font-weight: bold; 
+font-size: 5em; 
+margin-bottom: 150px
+}
+
+/* parágrafos */ 
+
+p.autor {
+color: #8b0000;
+font-style: italic; 
+font-size: 0,75; 
+}
+
+
+p.n1 {
+color: #CD5C5C;
+font-style: italic;
+font-weight: bold;
+font-size: 1.5em;
+    }
+
+p.n2 {
+color: red;  
+margin-top:20px;
+margin-bottom: 20px;
+}
+
+
+p.p400 {
+font-size: 400%;
+}
+
+p.p600 {
+font-size: 600%;
+}
+
+/* fontes reduzidas  */
+
+
+.pq70 {
+    font-size: 70%;
+    line-height: 1.2;
+}
+
+.pq55 {
+font-size: 55%;
+line-height: 1;
+color: #231f20
+}
+
+.pq50 {
+font-size: 50%;
+line-height: 1;
+color: #231f20
+}
+
+.pq45 {
+font-size: 45%;
+line-height: 1;
+color: #231f20
+}
+
+.pq40 {
+font-size: 40%;
+line-height: 1.2;
+color: #231f20
+}
+
+p.recuo { 
+text-indent:4em; 
+}
+
+.fundo {
+	display: block;
+	text-align: justify;
+	background-color: #d0cc95; 
+   margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.marcador {
+	background-color: #BDB76B;
+}
+
+p.dotted {
+border-style: dotted;
+padding: 25px;
+}
+
+.invisivel {
+color: white
+}
+
+/* Imagens */ 
+
+.legenda {
+font-size: 58%;
+line-height: 1;
+color: #231f20
+}
+
+.imagem {
+    width: 100%;
+}
+
+.imagem80 {
+    width: 80%;
+}
+.imagem70 {
+    width: 70%;
+}
+.imagem60 {
+    width: 60%;
+}
+.imagem50 {
+    width: 50%;
+}
+.imagem40 {
+    width: 40%;
+}
+
+/* listas */ 
+
+.lista {
+	margin-left: 3em;	
+}
+
+li {
+ margin-bottom: 1em;
+ }
+
+ul.sai {
+list-style-type: none;
+
+}
+
+/* quebras */
+
+p.q, .a {
+page-break-before:always;
+}
+p.resposta, .gabarito, .pergunta {
+page-break-before:always;
+color: #8b0000;
+}

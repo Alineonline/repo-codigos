@@ -1,0 +1,94 @@
+/* ==========================================================================
+   parágrafos - atualizada em 15/12/2019
+   ========================================================================== */ 
+
+/* parágrafos especiais */ 
+p.intro {
+	margin-top: 250px;
+}
+
+.poema {
+	display: block;
+	text-align: justify;
+	color: green;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 90px;
+}
+
+p.poem {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+p.verso {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.citacao {
+	display: block;
+	text-align: justify;
+	color: green;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 90px;
+}
+
+.ampliacao {
+	display: block;
+	font-size: 0.9em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background-color: #e8e6ca;
+	padding: 5px;
+}
+
+p.pampliacao {
+	text-align: justify;
+	font-size: 0.9em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;	
+	background-color: #e8e6ca;
+
+}
+
+.glossario {
+	font-size: 70%;
+	color: #231f20;
+	margin-left: 90px;
+	margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.pagina {	
+	display: block;
+	text-align: right;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.legenda {
+font-size: 58%;
+line-height: 1;
+color: #231f20
+}
+
+.referencia {
+	display: block;
+	text-align: justify;
+	background-color: #e8e6ca; 
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.capa {
+text-align: center;
+color: green; 
+font-weight: bold; 
+font-size: 5em; 
+margin-bottom: 150px
+}

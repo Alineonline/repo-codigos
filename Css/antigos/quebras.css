@@ -1,0 +1,11 @@
+/* ==========================================================================
+   Quebras - atualizada em 15/12/2019
+   ========================================================================== */ 
+
+p.q, .a {
+page-break-before:always;
+}
+p.resposta, .gabarito, .pergunta {
+page-break-before:always;
+color: #8b0000;
+}

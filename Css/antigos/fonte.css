@@ -1,0 +1,94 @@
+
+/* ==========================================================================
+   Fontes - atualizada em 15/12/2019
+   ========================================================================== */ 
+
+p.autor {
+color: #8b0000;
+font-style: italic; 
+font-size: 0,75; 
+}
+
+
+p.n1 {
+color: #CD5C5C;
+font-style: italic;
+font-weight: bold;
+font-size: 1.5em;
+    }
+
+p.n2 {
+color: red;  
+margin-top:20px;
+margin-bottom: 20px;
+}
+
+
+p.p400 {
+font-size: 400%;
+}
+
+p.p600 {
+font-size: 600%;
+}
+
+/* fontes reduzidas  */
+
+
+.pq70 {
+    font-size: 70%;
+    line-height: 1.2;
+}
+
+.pq55 {
+font-size: 55%;
+line-height: 1;
+color: #231f20
+}
+
+.pq50 {
+font-size: 50%;
+line-height: 1;
+color: #231f20
+}
+
+.pq45 {
+font-size: 45%;
+line-height: 1;
+color: #231f20
+}
+
+.pq40 {
+font-size: 40%;
+line-height: 1.2;
+color: #231f20
+}
+
+p.recuo { 
+text-indent:4em; 
+}
+
+.fundo {
+	display: block;
+	text-align: justify;
+	background-color: #d0cc95; 
+   margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.marcador {
+	background-color: #BDB76B;
+}
+
+p.dotted {
+border-style: dotted;
+padding: 25px;
+}
+
+.invisivel {
+color: white
+}
+
+

@@ -1,0 +1,340 @@
+﻿/* ==========================================================================
+   css 2020 - atualizada em 06/09/2020
+   Contem body p headers, blocos, parágrafos, imagem, lista e quebras
+   ========================================================================== */ 
+
+/* body, p e headers */
+
+body {
+text-align: justify;
+}
+
+p {display: block;
+  margin-bottom: 1em;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  line-height: 1.4;
+}
+
+/* ----- */
+
+
+
+
+
+h1 {
+text-align: center;
+font-weight: bold; 
+font-size: 1.8em; 
+margin-bottom: 150px
+}
+
+
+h2 {
+	font-weight: normal;
+	text-align: left;
+	border-width: 2px;
+	padding: 35px;
+	border-bottom-style: dotted;
+}
+
+
+h3 {
+color: #CD5C5C;  
+font-weight: bold;
+font-style: italic;
+font-size: 1.5em;
+margin-top:50px;
+margin-bottom: 50px;
+}
+
+h3.a {
+page-break-before:always;
+}
+
+h4 {
+color: red;
+margin-top:30px;
+margin-bottom: 50px;
+}
+
+
+
+/* BLOCOS */ 
+.poema {
+	color: green;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 70px;
+	padding-top: 5px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	border-width: 2px;
+	border-left-style: solid;
+}
+
+p.verso {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.citacao {
+	color: green;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	border-width: 2px;
+	border-left-style: solid;
+}
+
+
+
+.amplia {
+	display: block;
+	margin-left: 1em;
+	margin-right: 1em;
+	background-color: #e8e6ca;
+	padding: 3px;
+}
+
+p.pamp {
+	margin-left: 2em;
+	margin-right: 2em;
+
+}
+
+.glossario {
+	font-size: 70%;
+	color: #231f20;
+	margin-left: 90px;
+	margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+div.direita {
+	text-align: right;
+}
+
+.rodape {
+	font-size: 70%;
+	color: #231f20;
+	margin-left: 90px;
+	margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.pag {	
+	display: block;
+	text-align: right;
+	color: black;
+	font-size: 120%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+
+.referencia {
+	display: block;
+	text-align: justify;
+	background-color: #e8e6ca; 
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.capa {
+text-align: center;
+color: green; 
+font-weight: bold; 
+font-size: 5em; 
+margin-bottom: 150px
+}
+
+.fundo {
+	display: block;
+	text-align: justify;
+	background-color: #d0cc95; 
+	margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.marcador {
+	background-color: #BDB76B;
+}
+.invisivel {
+color: white
+}
+
+
+/* parágrafos */ 
+
+p.autor {
+color: #8b0000;
+font-style: italic; 
+text-align: right;
+}
+ 
+
+p.bi {font-weight: bold;
+font-style: italic;}
+
+p.b{font-weight: bold;
+}
+
+b.chama {font-size: 120%;
+font-weight: bold;}
+
+i.chama {font-size: 120%;
+font-weight: bold;}
+
+p.i{
+font-style: italic;
+font-size: 105%;
+}
+
+p.intro {
+	margin-top: 250px;
+}
+
+
+p.n1 {
+color: #CD5C5C;
+font-style: italic;
+font-weight: bold;
+font-size: 1.5em;
+    }
+
+p.n2 {
+color: red;  
+margin-top:20px;
+margin-bottom: 20px;
+}
+
+
+p.p400 {
+font-size: 400%;
+}
+
+p.p600 {
+font-size: 600%;
+}
+
+/* fontes reduzidas  */
+
+
+.pq70 {
+    font-size: 70%;
+    line-height: 1.2;
+}
+
+.pq55 {
+font-size: 55%;
+line-height: 1;
+color: #231f20
+}
+
+.pq50 {
+font-size: 50%;
+line-height: 1;
+color: #231f20
+}
+
+.pq45 {
+font-size: 45%;
+line-height: 1;
+color: #231f20
+}
+
+.pq40 {
+font-size: 40%;
+line-height: 1.2;
+color: #231f20
+}
+
+p.recuo { 
+text-indent:4em; 
+}
+
+
+p.dotted {
+border-style: dotted;
+padding: 25px;
+}
+
+
+
+
+/* listas */ 
+
+.lista {
+	margin-left: 3em;	
+}
+
+li {
+ margin-bottom: 1em;
+ }
+
+ul.sai {
+list-style-type: none;
+
+}
+
+/* quebras */
+
+p.a {
+page-break-before:always;
+}
+
+
+p.resposta {
+color: #CD5C5C;  
+font-weight: bold;
+font-style: italic;
+font-size: 1.5em;
+page-break-before:always;
+
+}
+}
+
+p.resumos {
+font-size: 160%;
+color: #8b0000;
+}
+
+
+/* Imagens */ 
+
+.legenda {
+font-size: 58%;
+line-height: 1;
+color: #231f20
+}
+
+.imagem {
+    width: 100%;
+}
+
+.imagem80 {
+    width: 80%;
+}
+.imagem70 {
+    width: 70%;
+}
+.imagem60 {
+    width: 60%;
+}
+.imagem50 {
+    width: 50%;
+}
+.imagem40 {
+    width: 40%;
+}
+.imagem30 {
+    width: 40%;
+}

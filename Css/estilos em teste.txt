@@ -1,0 +1,85 @@
+﻿.referencia {
+ 	background-color: #e8e6ca; 
+	font-size: 90%;
+	margin: 10px 10px 50px 10px; /* top, esq, baixo, dir */
+ 	border-top-style: solid;
+	border-style: solid;
+	border-width: 2px;
+	padding: 0em 2em 0em 2em;
+}
+
+
+ 
+.rodape {
+	font-size: 90%;
+	margin: 10px 10px 50px 10px; /* top, esq, baixo, dir */
+ 	border-top-style: solid;
+border-bottom-style: solid;
+	border-width: 2px;
+	padding: 0em 0em 1em 0em;
+}
+
+ 
+
+.subt1 {
+	color: green;
+	text-align: center;
+	font-weight: bold; 
+	font-size: 1.8em; 
+}
+
+.mark {
+	display: block;
+	text-align: justify;
+	background-color: #d0cc95; 
+	margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+/* parágrafos */ 
+ 
+p.recuo { 
+text-indent:4em; }
+
+
+p.dotted {
+border-style: dotted;
+padding: 25px;}
+
+
+p.resumos {
+font-size: 160%;
+color: #8b0000;}
+
+
+/* Em teste */ 
+
+.capa {
+color: green; 
+font-size: 5em; 
+margin-bottom: 150px;
+}
+
+.fundo {
+	display: block;
+	text-align: justify;
+	background-color: #d0cc95; 
+	margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.marcador {
+	background-color: #BDB76B;
+}
+
+.fbox {
+    border: solid black 1px;
+    background-color: #FFC;
+    font-size: 75%;
+    margin-left: 10%;
+    margin-right: 10%
+    }
