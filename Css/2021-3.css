@@ -1,5 +1,5 @@
-/* ==========================================================================
-    css 2021-3 - atualizada em 02/08/2021 
+﻿/* ==========================================================================
+    css 2021-3 - atualizada em 15/10/2021 
 
    Contem body p headers, blocos, parágrafos, imagem, lista e quebras
 
@@ -9,6 +9,7 @@
 12/04 - cite ganhou cor
 19/04 - cor do glossárrio dentro do poema. Criação do bloco "navega". 
 02/05 - alteração na borda de biografia e no afastamento de glossário
+15/10 - listacita - conserta alinhamento da lista dentro de citação.
    ========================================================================== */ 
 @page {
     margin-bottom: 5pt;
@@ -228,4 +229,7 @@ ol {margin: 2em 0em 2em 3em; /* Lista sem marcador. top, esq, baixo, direita */
 
 li {
  margin-bottom: 1em;
+ }
+
+.listacita {margin: 2em 0em 2em 0em; /* Lista sem marcador. top, esq, baixo, direita */
  }
