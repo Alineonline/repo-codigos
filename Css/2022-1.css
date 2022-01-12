@@ -1,0 +1,238 @@
+/* ==========================================================================
+    css 2022-1 - atualizada em 12/01/2022 
+
+   Contem body p headers, blocos, parágrafos, imagem, lista e quebras
+
+   17/03 - body ganhou hifenização e perdeu justificado.
+   
+   26/03 - alinhamento do css
+12/04 - cite ganhou cor
+19/04 - cor do glossárrio dentro do poema. Criação do bloco "navega". 
+02/05 - alteração na borda de biografia e no afastamento de glossário
+15/10 - listacita - conserta alinhamento da lista dentro de citação.
+12/01 - conserto em divrespostas, mudança no afastamento de bloco biografia. Usado no ebook Lit Br 1 V1.
+   ========================================================================== */ 
+@page {
+    margin-bottom: 5pt;
+    margin-top: 40pt;
+  }
+
+ 
+/* alinhamentos */ 
+
+body {-epub-hyphens: auto;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;}
+
+h1, .centro, .capa {text-align: center;}
+h2, h3, .esq  {text-align: left;}
+.autor, .dir, .epigrafe, .pag {text-align: right;}
+
+
+/* MARGENS */
+
+h1	{margin-bottom: 150px;}
+
+h2 {margin: 3em 0em 0em 0em;
+	padding: 0em 0em 1em 0em;
+	border-width: 2px;	
+	border-bottom-style: dotted;}
+
+h3 {margin-top:50px;}
+
+h4 {margin-top:30px;}
+
+h3, h4 {margin-bottom: 50px;}
+
+p.n2 {margin-top:20px; 	margin-bottom: 20px;
+}
+
+/* BLOCOS */ 
+
+blockquote {	
+	margin: 1em 0em 1em 0em ; /* top, esq, baixo, direita */
+	display: block;}
+
+.poema, .citacao {
+	border-width: 2px;
+	border-left-style: solid;
+	margin-left: 2em;
+	padding: 0em 0em 0em 1.5em; /* top, esq, baixo, direita */	}
+
+.referenciabnt {
+	background-color: #e8e6ca;
+	padding: 2em;
+ 	border: 1px solid;}
+
+.glossario {margin-left: 2em;}
+
+ /* Amplia - ampliação de informações */
+.amplia {background-color: #AFEEEE;
+	padding: 0.5em;}
+
+ 
+.indica /* Indica - indicação de recursos multimídia */
+{	background-color:#FFC300;
+	margin-left: 5%;
+ 	padding: 0.5em 0em 0.5em 0.5em; /* top, esq, baixo, direita */
+	border-left-style: solid;
+	border-width: 5px;    }
+ 
+
+.biografia {
+/* Biografia - biografia e glossários muito grandes */ 
+
+	background-color:#FAE5D3;
+	margin-left: 2em;
+ 	padding: 0.5em; 
+	border-style: solid;
+ 	border-width: 2px;    }
+
+.navega {
+/* Navegação - links para subtítulos, especialmente h3 */ 
+
+	background-color:#FAE5D3;
+ 	margin-right: 40%;
+
+ 	padding: 0.5em; 
+	border-style: solid;
+ 	border-width: 3px;    }
+
+.pag {margin-top: 15px 0px 15px 0px /* top, esq, baixo, direita */}
+ 
+
+.textorespostas {} /* serve para resetar o itálico do pdf original */
+
+/* parágrafos especiais dos blocos */ 
+.poema p, .amplia .poema p, .citacao .poema p, .poema .glossario p  {margin: 4px;}
+.poema .glossario {background-color: #e8e6ca; padding: 0.2em;}
+
+ /*poemas*/
+.amplia p, .biografia p, .navega p, .glossario p, .indica p  {margin: 1em;} 
+
+/*caixas*/
+.textorespostas i {font-style: normal; font-weight: normal;}
+.intro p {margin-top: 9em;}
+
+.referencia { 	text-align: justify;
+	background-color: #e8e6ca; 
+	margin-top: 2em;
+	margin-bottom: 2em;}
+
+.rodape {
+	color: #231f20;
+	margin-left: 90px;
+	margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+mark {
+	display: block;
+	text-align: justify;
+	background-color: #d0cc95; 
+	margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+/* Page Break */ 
+
+.a {page-break-before:always;}
+
+
+
+
+p.falsoh2 {
+	font-weight: normal;
+	text-align: left;
+	margin: 3em 0em 0em 0em;
+	padding: 0em 0em 1em 0em;
+	border-width: 2px;	
+	border-bottom-style: dotted;
+	font-size: 150%; }
+
+
+
+
+ 
+/* -----FONTES----- */ 
+
+/* estilo */
+
+.autor, cite, h3, p.n1, p.bi, p.i, i  
+{font-style: italic;}
+
+dfn, em {font-style: normal;}
+
+/* peso */
+
+.autor, b.chama, cite, .capa, dfn, em, h1, h3, i, p.n1, p.b, p.bi 
+{font-weight: bold;}
+
+h2 
+{font-weight: normal;}
+
+/* tamanho */
+
+figure {font-size: 60%;}
+.rodape {font-size: 70%;}
+.glossario p {font-size: 80%;}
+dfn {font-size: 90%;}
+p.i, {font-size: 105%;}
+cite, b.chama, .autor {font-size: 110%;}
+h2, em, .pag {font-size: 120%;}
+h2, p.n1, h3 {font-size: 150%;}
+p.p400 {font-size: 400%;}
+p.p600 {font-size: 600%;}
+h1 {font-size: 180%;}
+ 
+
+ /* cor */ 
+h1 {color: blue;}
+h2, .amplia .citacao p, .amplia .poema p, p.falsoh2, .poema .glossario p {color: black;}
+h3, p.n1, p.n2 {color: #CD5C5C;}
+h4, .autor, dfn {color: red;} 
+.poema, .citacao {color: #004d00;}
+cite {color: #ff00ff}
+.pag {color: #008B8B;}
+
+
+
+
+
+/* Imagens */ 
+
+.legenda { line-height: 1; font-size: 60%;}
+
+.imagem 	{ width: 100%;}
+.imagem80	{ width: 80%;}
+.imagem70	{ width: 70%;}
+.imagem60	{ width: 60%;}
+.imagem50	{ width: 50%;}
+.imagem40	{ width: 40%;}
+.imagem30	{ width: 40%;}
+.imagem30	{ width: 20%;}
+
+
+/* listas */ 
+
+ul {margin: 2em 0em 2em 3em; /* Lista sem marcador. top, esq, baixo, direita */
+ }
+
+ol {margin: 2em 0em 2em 3em; /* Lista sem marcador. top, esq, baixo, direita */
+ }
+
+
+.lista {
+	margin: 2em 0em 2em 3em;
+ /* Lista Fake. top, esq, baixo, direita */
+}
+
+li {
+ margin-bottom: 1em;
+ }
+
+.listacita {margin: 2em 0em 2em 0em; /* Lista sem marcador. top, esq, baixo, direita */
+ }
