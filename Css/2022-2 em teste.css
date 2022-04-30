@@ -177,19 +177,18 @@ figure {font-size: 60%;}
 dfn {font-size: 90%;}
 p.i, {font-size: 105%;}
 cite, b.chama {font-size: 110%;}
-h2, em, .pag {font-size: 120%;}
-h2, p.n1, h3 {font-size: 150%;}
+em, .pag {font-size: 120%;}
+p.n1 {font-size: 150%;}
 p.p400 {font-size: 400%;}
 p.p600 {font-size: 600%;}
-h1 {font-size: 100%;}
+h1, h2 {font-size: 100%;}
  
 
  /* cor */ 
 h2, .amplia .citacao p, .amplia .poema p, p.falsoh2, .poema .glossario p {color: black;}
 h3, p.n1, p.n2 {color: #CD5C5C;}
 h4, dfn {color: red;} 
-.poema, .citacao {color: #004d00;}
-cite {color: #ff00ff}
+ cite {color: #ff00ff}
 .pag {color: #008B8B;}
 
 
